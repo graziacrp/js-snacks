@@ -3,13 +3,13 @@
 
 
 
-var listaNomi = ["nick", "jordan", "daisy", "tom"];
-var nomeUtente = prompt("scrivi il tuo nome e vedo se puoi partecipare");
-var validato = false;
+let listaNomi = ["nick", "jordan", "daisy", "tom"];
+let nomeUtente = prompt("scrivi il tuo nome e vedo se puoi partecipare");
+let validato = false;
 
 
 
-for (var i = 0; i < listaNomi.length; i++) {
+for (let i = 0; i < listaNomi.length; i++) {
   if ( listaNomi[i].toLowerCase() == nomeUtente.toLowerCase() ) {
     validato = true;
   }
